@@ -1,0 +1,5 @@
+--ignore-watch node_modules
+
+  Ignora arquivos dentro da pasta node_modules de forma que a inicialização do app ocorra mais rapidamente.
+
+--transpileOnly

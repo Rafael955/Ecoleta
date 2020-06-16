@@ -1,0 +1,12 @@
+[0612/022408.842:ERROR:process_reader_win.cc(127)] NtOpenThread: {Acesso Negado} Um processo solicitou acesso a um objeto, mas o direito de acesso não lhe foi concedido. (0xc0000022)
+[0612/022409.342:ERROR:exception_snapshot_win.cc(99)] thread ID 16932 not found in process
+[0612/022410.716:ERROR:process_memory_win.cc(73)] ReadMemory at 0x250193b5fe0 of 6656 bytes failed: Somente uma parte de um pedido ReadProcessMemory ou WriteProcessMemory foi concluída. (0x12B)
+[0612/022410.779:ERROR:process_snapshot_win.cc(344)] failed to read unloaded module data
+[0612/022410.841:ERROR:process_memory_win.cc(73)] ReadMemory at 0x250196737a0 of 72 bytes failed: Somente uma parte de um pedido ReadProcessMemory ou WriteProcessMemory foi concluída. (0x12B)
+[0612/022410.841:WARNING:pe_image_annotations_reader.cc(134)] could not read annotations list object in C:\Program Files (x86)\Microsoft\Edge\Application\83.0.478.45\msedge_elf.dll
+[0612/022410.841:ERROR:process_memory_win.cc(73)] ReadMemory at 0x250199c9fc0 of 72 bytes failed: Somente uma parte de um pedido ReadProcessMemory ou WriteProcessMemory foi concluída. (0x12B)
+[0612/022410.841:WARNING:pe_image_annotations_reader.cc(134)] could not read annotations list object in C:\Program Files (x86)\Microsoft\Edge\Application\83.0.478.45\msedge.dll
+[0612/022410.919:ERROR:process_memory_win.cc(73)] ReadMemory at 0x250196737a0 of 72 bytes failed: Somente uma parte de um pedido ReadProcessMemory ou WriteProcessMemory foi concluída. (0x12B)
+[0612/022410.919:WARNING:pe_image_annotations_reader.cc(134)] could not read annotations list object in C:\Program Files (x86)\Microsoft\Edge\Application\83.0.478.45\msedge_elf.dll
+[0612/022410.919:ERROR:process_memory_win.cc(73)] ReadMemory at 0x250199c9fc0 of 72 bytes failed: Somente uma parte de um pedido ReadProcessMemory ou WriteProcessMemory foi concluída. (0x12B)
+[0612/022410.919:WARNING:pe_image_annotations_reader.cc(134)] could not read annotations list object in C:\Program Files (x86)\Microsoft\Edge\Application\83.0.478.45\msedge.dll

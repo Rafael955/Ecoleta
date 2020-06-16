@@ -1,0 +1,44 @@
+--------------------------------------------------------
+Header.tsx
+--------------------------------------------------------
+import React from 'react';
+
+interface HeaderProps {
+  title: string;
+} 
+
+const Header: React.FC<HeaderProps> = (props) => {
+  return (
+      <header>
+        <h1>{ props.title }</h1>
+      </header>
+  )
+}
+
+export default Header;
+
+--------------------------------------------------------
+App.tsx
+--------------------------------------------------------
+import React, { useState } from "react";
+import "./App.css";
+import Header from "./Header";
+
+function App() {
+  const [counter, setCounter] = useState(0); // [valor do estado, função para atualizar o valor do estado]
+
+  function handleButtonClick() {
+    setCounter(counter + 1);
+  }
+
+  return (
+    <div>
+      <Header title={`Contador: ${counter}`}/>
+      <button type="button" onClick={handleButtonClick}>Aumentar</button>
+    </div>
+  );
+}
+
+export default App;
+
+
